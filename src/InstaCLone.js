@@ -46,7 +46,7 @@ class InstaClone extends Component{
                 </View> 
                
                 {/* User Posted Image */}
-                <TouchableOpacity onPress = { () => {alert('press');} }>
+                
                 <Image
                 style={{width: this.state.screenWidth , height: 400}}
                 source={{
@@ -64,7 +64,7 @@ class InstaClone extends Component{
                     <Image style={[styles.icon , { height: 37, width: 36}]} 
                     source={config.images.arrowIcon} />
                 </View>
-                </TouchableOpacity>
+                
             </View>
         );
     }
